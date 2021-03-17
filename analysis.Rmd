@@ -1,0 +1,20 @@
+---
+title: "analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Importing data
+```{r}
+data = read.csv(file = "totalCal.csv")
+View(data)
+```
+
+EDA
+```{r}
+summary(data)
+```
+
