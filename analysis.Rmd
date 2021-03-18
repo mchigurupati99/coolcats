@@ -28,4 +28,6 @@ pairs(numberData)
 
 str(numberData) #checking column types
 pairs(numberData)
+
+library(ggplot2)
 ```
