@@ -10,11 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 Importing data
 ```{r}
 data = read.csv(file = "totalCal.csv")
-library(tidyverse)
 View(data)
 attach(data)
 ```
-
 
 Dropping the countries names
 ```{r}
@@ -26,6 +24,8 @@ View(numberData)
 EDA
 ```{r}
 summary(data)
+pairs(numberData)
 
+str(numberData) #checking column types
 pairs(numberData)
 ```
